@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_no_items_to_show"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/bg_row_drop"
+    android:paddingBottom="@dimen/tv_no_items_vertical_padding"
+    android:paddingTop="@dimen/tv_no_items_vertical_padding"
+    android:text="@string/no_items_to_show"
+
+    />

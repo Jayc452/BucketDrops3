@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- this applies to api version 16 and above -->
+<resources>
+
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+
+            <item name="android:fontFamily"> @string/sans_serif_thin</item>
+
+    </style>
+
+</resources>

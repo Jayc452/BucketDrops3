@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.jayc6678.bucketdrops.MainActivity">
+
+
+   <include
+       android:id="@+id/toolbar"
+       layout="@layout/toolbar"/>
+
+   <!--this is for the background image -->
+   <ImageView
+       android:layout_below="@id/toolbar"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/background"/>
+
+   <include layout="@layout/empty_drops"
+      android:id="@+id/empty_drops" />
+
+   <com.jayc6678.bucketdrops.widgets.BucketRecyclerView
+       android:layout_height="match_parent"
+       android:layout_width="match_parent"
+       android:id="@+id/rv_drops"
+       android:layout_below="@id/toolbar"
+       android:paddingLeft="12dp"
+       android:paddingRight="12dp"
+       >
+   </com.jayc6678.bucketdrops.widgets.BucketRecyclerView>
+
+
+   <!-- created this button temporarily to get data from RealmDB-->
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="See Data"
+       android:id="@+id/button2"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:onClick="getRealmData" />
+
+
+</RelativeLayout>

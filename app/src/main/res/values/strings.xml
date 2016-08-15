@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Bucket Drops</string>
+    <string name="add_a_drop">Add a Drop</string>
+    <string name="hint_et_drop">What is it?</string>
+    <string name="add_a_drop_dialog_fragment">Add a Drop</string>
+    <string name="add_a_drop_dialog_fragment_title">Add a Drop</string>
+    <string name="action_add">Add</string>
+    <string name="action_most_time_left">Most Time Left</string>
+    <string name="action_least_time_left">Least time Left</string>
+    <string name="action_show_complete">Show Complete</string>
+    <string name="action_show_pending">Show Pending</string>
+    <string name="no_items_to_show">No Items to Show</string>
+    <string name="sans_serif_thin">sans-serif-thin</string>
+
+</resources>

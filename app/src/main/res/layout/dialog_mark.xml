@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/bg_dialog"
+    >
+
+    <Button
+        android:id="@+id/btn_completed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Mark Completed"
+        android:textAllCaps="false"
+        android:drawableTop="@drawable/ic_check"
+        android:drawablePadding="16dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="96dp"
+        android:layout_marginBottom="96dp"
+        android:textSize="24dp"
+        />
+
+    <!-- this is refering the above element in its placement. So it needs to be below the above element-->
+
+    <ImageButton
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:id="@+id/btn_close"
+        android:src="@drawable/ic_close"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:layout_above="@+id/btn_completed"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="63dp" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+
+
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+    </style>
+
+    <!-- this is the style we created using android > Tools > Theme Editor for our Dialog box-->
+    <style name="DialogTheme" parent="Theme.AppCompat.Dialog" >
+
+        <!--background color of the dialog window. we got this from Theme Editor-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+        <!-- we need the dialog to be full screen. we had to manually enter this info-->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height"> match_parent</item>
+
+        <!-- dont need an area at the top to display a title -->
+        <item name="android:windowNoTitle">true</item>
+
+
+        <!--set this to false, to make the dialog window full screen-->
+        <item name="android:windowIsFloating"> false</item>
+    </style>
+
+    <!--this is the color of the overflow menu-->
+
+    <style name="ToolbarOverFlowMenuStyle" parent="Theme.AppCompat.Light">
+
+        <!-- give background color -->
+        <item name="android:colorBackground">@color/green</item>
+        <item name="android:textColor">@color/dark_blue</item>
+
+    </style>
+
+    <style name="DatePickerItemStyle">
+        <item name="android:layout_width">@dimen/tv_picker_item_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/purple</item>
+        <item name="android:textSize">@dimen/tv_title_font_size</item>
+        <item name="android:background">@drawable/date_picker_item_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">@dimen/tv_picker_item_drawable_padding</item>
+        <item name="android:drawableTop">@drawable/up_normal</item>
+        <item name="android:drawableBottom">@drawable/down_normal</item>
+    </style>
+
+
+</resources>
