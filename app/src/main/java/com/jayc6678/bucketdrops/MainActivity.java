@@ -36,7 +36,7 @@ import io.realm.Sort;
 public class MainActivity extends AppCompatActivity {
 
 
-    //testing gitgit status
+    //testing gitgit status - 2ss
 
 
     private static String TAG = "Log MainActivity";
